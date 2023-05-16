@@ -1,0 +1,59 @@
+:root {
+    --shadow-color: rgba(219, 219, 219, 0.171);
+    --border-color: rgba(219, 219, 219, 0.411);
+    --background-color: rgba(219, 219, 219, 0.171);
+    --tableHeader-color: rgb(20, 167, 224);
+    --bcg-color-table: rgba(158, 158, 158, 0.305);
+}
+
+.transactionHistory {
+    width: 900px;
+    margin: 50px 0;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.tableHeader {
+    background-color: var(--tableHeader-color);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+.tableType {
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.tableAmount {
+    padding: 10px 10px;
+    width: 300px;
+}
+
+.tableCurrency {
+    padding: 10px 10px;
+    width: 300px;
+}
+
+.tr {
+    background-color: white;
+    height: 30px;
+}
+
+.tr:nth-child(even) {
+    background-color: var(--bcg-color-table);
+}
+
+td {
+    border: 1px solid var(--border-color);
+    box-shadow: 1px 1px 3px var(--shadow-color) inset;
+}
+
+table {
+    border-spacing: 1px;
+    box-shadow: 2px 2px 10px var(--shadow-color) inset;
+}
