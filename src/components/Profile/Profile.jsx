@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Profile.module.css'
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
-    <>
-        <div className={css.profile}>
+    <div className={css.profile}>
             <div className={css.description}>
                 <img src={avatar} alt="User avatar" className={css.avatar} />
                 <p className={css.name}>{username}</p>
@@ -25,8 +24,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
                     <span className={css.quantity}>{stats.likes}</span>
                 </li>
             </ul>
-        </div>   
-    </>
+     </div>
 );
 
 Profile.propTypes = {

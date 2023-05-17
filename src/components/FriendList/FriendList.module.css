@@ -1,48 +1,4 @@
-:root {
-    --shadow-color: rgba(219, 219, 219, 0.171);
-    --border-color: rgba(219, 219, 219, 0.411);
-    --background-color: rgba(219, 219, 219, 0.171);
-}
-
 .friendList {
     list-style: none;
     margin: 50px 0;
-}
-
-.item {
-    display: flex;
-    padding: 15px;
-    margin-bottom: 10px;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    width: 200px;
-    border: 1px solid var(--border-color);
-    border-radius: 20px;
-    background-color: var(--background-color);
-}
-
-.status {
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
-.active {
-    background-color: red;
-}
-
-.nonActive {
-    background-color: green;
-}
-
-.avatar {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-}
-
-.name {
-    font-size: 22px;
-    font-weight: 700;
 }
